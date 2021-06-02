@@ -1,0 +1,14 @@
+This file is parsed by pam_env module
+#
+# Syntax: simple "KEY=VAL" pairs on separate lines
+#
+export SF_ROOT_PATH=/ngfw
+export SF_ETC_ROOT_PATH=/ngfw
+export SF_DATA_ROOT_PATH=/ngfw
+export PATH=/ngfw/bin:/ngfw/sbin:/ngfw/usr/bin:/ngfw/usr/sbin:/ngfw/usr/local/bin:/ngfw/usr/local/sbin:/ngfw/usr/local/sf/bin:/usr/bin:/bin:/usr/sbin:/sbin
+export PERL5LIB=
+export LD_LIBRARY_PATH=
+export MYSQL_UNIX_SOCKET=/var/run/mysql/mysql.sock
+export CLISH_PATH=/ngfw/etc/clish
+export VIMRUNTIME=/ngfw/usr/share/vim/vim81
+VTYSH_PAGER=more
